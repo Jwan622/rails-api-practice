@@ -146,8 +146,8 @@ If you are unfamiliar with Rails, start at the beginning. If you are somewhat fa
     rails s
     ```
 
-    If your port is 3000, then visit localhost:3000/app/v1/vendors and you should receive back JSON data.  
-    You can also visit localhost:3000/app/v1/vendors.json
+    If your port is 3000, then visit localhost:3000/api/v1/vendors and you should receive back JSON data.  
+    You can also visit localhost:3000/api/v1/vendors.json
 
 6. One thing that is interesting is that even though you can visit the url, and see the JSON data if you make an HTTP request,   you will encounter the problem if you make an AJAX request using a client-side framework.
 
